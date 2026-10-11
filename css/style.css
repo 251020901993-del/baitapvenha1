@@ -1,0 +1,159 @@
+/* Homework One - Styling Your First Page
+   Mot tep CSS dung chung cho ca 3 trang HTML.
+*/
+
+/* Quy tac chung */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #183146;
+    background-color: #eef4f8;
+}
+
+/* Header, navigation */
+header {
+    background-color: #19425e;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 28px;
+}
+
+nav {
+    background-color: #102f45;
+    padding: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+nav a {
+    display: block;
+    padding: 12px 8px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+nav a:hover,
+nav a:focus-visible,
+nav a[aria-current="page"] {
+    background-color: #326c85;
+    text-decoration: underline;
+}
+
+header > img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 26px auto 14px;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0 12px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+/* Noi dung */
+main {
+    background-color: #ffffff;
+    font-size: 1.05rem;
+    max-width: 980px;
+    margin: 28px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(19, 49, 71, 0.09);
+}
+
+p {
+    line-height: 1.75;
+}
+
+main a {
+    color: #075685;
+}
+
+/* Hinh anh o trang Neighborhood va Parks */
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+    gap: 16px;
+}
+
+main div img {
+    display: block;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 9px;
+    border: 2px solid #c9dfe9;
+}
+
+/* Footer */
+footer {
+    background-color: #18384c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 24px;
+}
+
+footer p {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer a {
+    color: #ffe6a1;
+}
+
+/* Giup nhin thay vi tri khi dung ban phim */
+a:focus-visible {
+    outline: 3px solid #ffa726;
+    outline-offset: 3px;
+}
+
+/* Hien thi tot tren dien thoai */
+@media (max-width: 600px) {
+    li {
+        display: block;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        margin: 16px 12px;
+        padding: 20px;
+    }
+
+    main div {
+        grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+    }
+
+    main div img {
+        height: 190px;
+    }
+}

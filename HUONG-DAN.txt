@@ -1,0 +1,41 @@
+BÀI COURSERA - HOMEWORK ONE: STYLING YOUR FIRST PAGE
+====================================================
+Nguồn HTML và hình: academic-innovation-online-learning/WD4E-Intro_to_CSS3,
+thư mục CSS-week1-HW1.
+
+CẤU TRÚC:
+- index.html          Trang chủ
+- neighborhood.html   Hình ảnh khu dân cư
+- parks.html          Hình ảnh công viên
+- css/style.css       Một tệp CSS chung cho cả ba trang
+- images/             Hình ảnh gốc đã giảm kích thước/dung lượng
+
+CÁCH XEM:
+1. Giải nén file ZIP.
+2. Mở index.html trong Chrome hoặc Safari.
+3. Bấm Home, Neighborhood Walks, Walks in the Park để kiểm tra các trang.
+
+YÊU CẦU BÀI TẬP ĐÃ ĐƯỢC THỰC HIỆN:
+- Link cùng css/style.css trên cả ba trang.
+- body: font-family, font-size.
+- header: background-color.
+- nav: background-color.
+- main: background-color, font-size.
+- footer: background-color.
+- li: display, width.
+- h1: text-align, font-family, color.
+- p: line-height.
+- Thêm vài kiểu bổ sung: khoảng cách, hover/focus, lưới hình và responsive.
+- Giữ nguyên nội dung và địa chỉ file ảnh; ảnh được thu nhỏ chỉ để tiết kiệm dung lượng tải.
+
+CÁCH ĐĂNG LÊN GITHUB PAGES (để có link nộp và nhờ bạn học chấm):
+1. Đưa NỘI DUNG thư mục này lên kho GitHub của bạn, trong cùng một thư mục.
+2. Vào Settings > Pages > Deploy from a branch; chọn main và /(root), rồi Save.
+3. Mở đường dẫn Pages được tạo và kiểm tra cả 3 trang.
+4. Kiểm tra bằng https://validator.w3.org/ và https://wave.webaim.org/.
+5. Dùng link web GitHub Pages theo hướng dẫn nộp bài trên Coursera.
+
+LƯU Ý: Chưa chạy trình kiểm tra WAVE trực tuyến trên link Pages đã công bố.
+Không đánh dấu đã vượt qua WAVE cho tới khi chính bạn kiểm tra URL đã xuất bản.
+
+BẢN NÉN NHẸ: Ảnh được đổi sang WebP và liên kết ảnh trong HTML đã được cập nhật.
